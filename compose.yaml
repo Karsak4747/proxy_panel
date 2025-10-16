@@ -5,10 +5,13 @@ services:
     # hostname: yourhostname <- optional
     volumes:
       - $PWD/db/:/etc/x-ui/
-      - $PWD/cert/:/root/cert/
+      - /etc/ssl/certs/:/root/cert/
     environment:
       XRAY_VMESS_AEAD_FORCED: "false"
       XUI_ENABLE_FAIL2BAN: "true"
     tty: true
     network_mode: host
     restart: unless-stopped
+
+#/panel_secure_4be65nu6
+#/4be6sub5nu6/
