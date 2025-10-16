@@ -12,6 +12,3 @@ services:
     tty: true
     network_mode: host
     restart: unless-stopped
-
-#/panel_secure_4be65nu6
-#/4be6sub5nu6/
